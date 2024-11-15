@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List with Categories</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Shopping Cart with Discounts</h1>
+
+        <!-- Add Task Form -->
+        <div class="form">
+            <input type="text" id="itemName" placeholder="Item Name">
+            <input type="number" id="price" placeholder="Price">
+            <input type="number" id="amount" placeholder="1">
+            <button onclick="addItem()">Add Item</button>
+            <input type="number" id="discount" placeholder="Discount (%)">
+            <button onclick="applyDiscount()">Apply Discount</button>
+        </div>
+
+        <!-- item List -->
+        <div class="item-list">
+            <h2>Cart Items</h2>
+            <div id="item-list"></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
